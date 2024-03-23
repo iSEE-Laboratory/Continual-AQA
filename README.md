@@ -1,7 +1,11 @@
 # Continual-AQA
 Official PyTorch implementation of paper "Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling"
 
-Coming soon...
+The preprocessed datasets, code and checkpoints will be available soon.
+
+if you have any question, feel free to contact us.
+
+**Contact:** yuanmingli527@gmail.com / liym266@mail2.sysu.edu.cn
 
 ## Citation
 Please cite it if you find this work useful.
