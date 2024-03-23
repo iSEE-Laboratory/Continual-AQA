@@ -7,6 +7,17 @@ if you have any question, feel free to contact us.
 
 **Contact:** yuanmingli527@gmail.com / liym266@mail2.sysu.edu.cn
 
+## Requirements
+
+- Python 3.8+
+- Pytorch
+- torchvision
+- numpy
+- timm
+- scipy
+
+Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
+
 ## Citation
 Please cite it if you find this work useful.
 ```
