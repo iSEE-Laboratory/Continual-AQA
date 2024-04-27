@@ -8,6 +8,9 @@ if you have any question, feel free to contact us.
 
 **Contact:** yuanmingli527@gmail.com / liym266@mail2.sysu.edu.cn
 
+## News
+- [2024.04.27] This work is accepted by **TCSVT-2024** :)
+
 ## Preprocessed Datasets
 
 ## Requirements
