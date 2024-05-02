@@ -12,7 +12,6 @@ if you have any question, feel free to contact us.
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
 - [2024.05.02] The pre-processed data, checkpoints and logs of the experiments on AQA-7 dataset are available :) 
 
-## Preprocessed Datasets
 
 ## Requirements
 - Python 3.8+
