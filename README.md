@@ -41,6 +41,6 @@ Please cite it if you find this work useful.
   title={Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling},
   author={Li, Yuan-Ming and Zeng, Ling-An and Meng, Jing-Ke and Zheng, Wei-Shi},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023}
+  year={2024}
 }
 ```
