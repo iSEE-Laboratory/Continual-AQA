@@ -23,11 +23,12 @@ if you have any question, feel free to contact us.
 
 Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
 
-## Data Preparation
+## Usage
+### Data Preparation
 Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-Z7BeM?usp=sharing) to download the preprocessed AQA-7 dataset.
 
-## Checkpoints
-
+### Checkpoints \& logs
+Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
 
 
 ## Citation
