@@ -10,6 +10,7 @@ if you have any question, feel free to contact us.
 
 ## News
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
+- [2024.05.02] The pre-processed data, checkpoints and logs of the experiments on AQA-7 dataset are available :) 
 
 ## Preprocessed Datasets
 
@@ -30,6 +31,11 @@ Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-
 ### Checkpoints \& logs
 Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
 
+### Test with checkpoints
+Coming soon.
+
+### Train from scratch
+Coming soon.
 
 ## Citation
 Please cite it if you find this work useful.
