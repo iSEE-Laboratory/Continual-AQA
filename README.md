@@ -42,10 +42,6 @@ Please cite it if you find this work useful.
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Task analysis;Feature extraction;Training;Data models;Quality assessment;Power capacitors;Fuses;Action Quality Assessment;Continual Learning},
   doi={10.1109/TCSVT.2024.3396692}}
 
 ```
