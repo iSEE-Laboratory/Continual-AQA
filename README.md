@@ -1,6 +1,6 @@
 # Continual-AQA
 Official PyTorch implementation of paper "Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling" (TCSVT 2024). 
-[[ArXiv]](https://arxiv.org/abs/2309.17105)
+[[ArXiv]](https://arxiv.org/abs/2309.17105) [[IEEE Trans]](https://ieeexplore.ieee.org/document/10518028)
 
 Please feel free to contact us if you have any question.
 
