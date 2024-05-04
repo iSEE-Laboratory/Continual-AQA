@@ -37,10 +37,15 @@ Coming soon.
 ## Citation
 Please cite it if you find this work useful.
 ```
-@article{li2023continual,
-  title={Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling},
+@ARTICLE{10518028,
   author={Li, Yuan-Ming and Zeng, Ling-An and Meng, Jing-Ke and Zheng, Wei-Shi},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2024}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Task analysis;Feature extraction;Training;Data models;Quality assessment;Power capacitors;Fuses;Action Quality Assessment;Continual Learning},
+  doi={10.1109/TCSVT.2024.3396692}}
+
 ```
