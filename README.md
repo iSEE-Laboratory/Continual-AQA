@@ -55,7 +55,6 @@ Please cite it if you find this work useful.
   title={Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling}, 
   year={2024},
   doi={10.1109/TCSVT.2024.3396692}}
-
 ```
 
 ## Acknowledgement
