@@ -57,3 +57,26 @@ Please cite it if you find this work useful.
   doi={10.1109/TCSVT.2024.3396692}}
 
 ```
+
+## Acknowledgement
+The authors thank Jia-Hui Pan for providing the code and pre-proceesed data used in her works:
+```
+@inproceedings{pan2019action,
+  title={Action assessment by joint relation graphs},
+  author={Pan, Jia-Hui and Gao, Jibin and Zheng, Wei-Shi},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={6331--6340},
+  year={2019}
+}
+
+@article{pan2021adaptive,
+  title={Adaptive action assessment},
+  author={Pan, Jia-Hui and Gao, Jibin and Zheng, Wei-Shi},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={44},
+  number={12},
+  pages={8779--8795},
+  year={2021},
+  publisher={IEEE}
+}
+```
