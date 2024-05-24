@@ -33,7 +33,7 @@ Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2i
 Coming soon.
 
 ### Train from scratch
-Use the following script to train our model:
+Use the following script to train our model on the AQA-7 dataset.
 ```
 python run_net.py --exp_name your_exp_name \
   --gpu 0,1,2,3 --seed 0 --approach g_e_graph \
