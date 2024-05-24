@@ -40,7 +40,7 @@ python run_net.py --exp_name your_exp_name \
   --lambda_distill 9 --lambda_diff 0.7 \
   --replay --replay_method group_replay --memory_size 30 \
   --diff_loss \
-  --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.3 --aug_w_weight\
+  --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.3\
   --save_graph --g_e_graph --fix_graph_mode no_fix \
   --save_ckpt\
   --optim_mode new_optim --lr_decay --num_epochs 200 --batch-size 16 --alpha 0.8 
