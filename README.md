@@ -8,8 +8,8 @@ Please feel free to contact us if you have any question.
 
 ## News
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
-- [2024.05.02] The pre-processed data, checkpoints and logs of the experiments on AQA-7 dataset are available :)
-- [2024.05.24] The code for experiments on the AQA-7 dataset is available :)
+- [2024.05.02] The pre-processed **data**, **checkpoints** and **logs** of the experiments on AQA-7 dataset are available :)
+- [2024.05.24] The **code** and running **script** for experiments on the AQA-7 dataset is available :)
 
 
 ## Requirements
