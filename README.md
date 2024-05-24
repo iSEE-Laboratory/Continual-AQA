@@ -8,7 +8,8 @@ Please feel free to contact us if you have any question.
 
 ## News
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
-- [2024.05.02] The pre-processed data, checkpoints and logs of the experiments on AQA-7 dataset are available :) 
+- [2024.05.02] The pre-processed data, checkpoints and logs of the experiments on AQA-7 dataset are available :)
+- [2024.05.24] The code for experiments on the AQA-7 dataset is available :)
 
 
 ## Requirements
@@ -32,7 +33,18 @@ Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2i
 Coming soon.
 
 ### Train from scratch
-Coming soon.
+Use the following script to train our model:
+```
+python run_net.py --exp_name your_exp_name \
+  --gpu 0,1,2,3 --seed 0 --approach g_e_graph \
+  --lambda_distill 9 --lambda_diff 0.7 \
+  --replay --replay_method group_replay --memory_size 30 \
+  --diff_loss \
+  --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.3 --aug_w_weight\
+  --save_graph --g_e_graph --fix_graph_mode no_fix \
+  --save_ckpt\
+  --optim_mode new_optim --lr_decay --num_epochs 200 --batch-size 16 --alpha 0.8 
+```
 
 ## Citation
 Please cite it if you find this work useful.
