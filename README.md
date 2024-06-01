@@ -26,7 +26,7 @@ Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
 ## Usage
 ### Data Preparation
 - Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-Z7BeM?usp=sharing) to download the preprocessed AQA-7 dataset.
-- Click [here](https://drive.google.com/file/d/12a1abdgoSDXNW7iTqOvLYFnQIvIFkgzu/view?usp=share_link) to download the preprocessed MTL-AQA dataset.
+- Click [here](https://drive.google.com/drive/folders/1k7dT1MZkOs3-IDU5SYCCkOeA6bX9WVrK?usp=share_link) to download the preprocessed MTL-AQA dataset.
 
 ### Checkpoints \& logs
 Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
