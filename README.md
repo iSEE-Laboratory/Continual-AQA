@@ -9,7 +9,8 @@ Please feel free to contact us if you have any question.
 ## News
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
 - [2024.05.02] The pre-processed **data**, **checkpoints** and **logs** of the experiments on AQA-7 dataset are available :)
-- [2024.05.24] The **code** and running **script** for experiments on the AQA-7 dataset is available :)
+- [2024.05.24] The **code** and running **script** for experiments on the AQA-7 dataset are available :)
+- [2024.06.01] The pre-processed **data**, **code**, and running **script** for experiments on the MTL-AQA dataset are available :)
 
 
 ## Requirements
@@ -24,7 +25,8 @@ Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
 
 ## Usage
 ### Data Preparation
-Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-Z7BeM?usp=sharing) to download the preprocessed AQA-7 dataset.
+- Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-Z7BeM?usp=sharing) to download the preprocessed AQA-7 dataset.
+- Click [here](https://drive.google.com/file/d/12a1abdgoSDXNW7iTqOvLYFnQIvIFkgzu/view?usp=share_link) to download the preprocessed MTL-AQA dataset.
 
 ### Checkpoints \& logs
 Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
