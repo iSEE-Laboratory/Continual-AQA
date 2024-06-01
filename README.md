@@ -13,7 +13,7 @@ Please feel free to contact us if you have any question.
 - [2024.06.01] The pre-processed **data**, **code**, and running **script** for experiments on the MTL-AQA and the BEST datasets are available :)
 
 ## Pipeline
-![framework.pdf](./img/framework.pdf)
+ ![](./img/pipeline.png)
 
 
 
