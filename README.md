@@ -10,7 +10,7 @@ Please feel free to contact us if you have any question.
 - [2024.04.27] This work is accepted by **TCSVT-2024** :)
 - [2024.05.02] The pre-processed **data**, **checkpoints** and **logs** of the experiments on AQA-7 dataset are available :)
 - [2024.05.24] The **code** and running **script** for experiments on the AQA-7 dataset are available :)
-- [2024.06.01] The pre-processed **data**, **code**, and running **script** for experiments on the MTL-AQA dataset are available :)
+- [2024.06.01] The pre-processed **data**, **code**, and running **script** for experiments on the MTL-AQA and the BEST datasets are available :)
 
 
 ## Requirements
@@ -27,6 +27,7 @@ Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
 ### Data Preparation
 - Click [here](https://drive.google.com/drive/folders/1Llnwbn2CO-ktQU1oxkhO46Qj-n-Z7BeM?usp=sharing) to download the preprocessed AQA-7 dataset.
 - Click [here](https://drive.google.com/drive/folders/1k7dT1MZkOs3-IDU5SYCCkOeA6bX9WVrK?usp=share_link) to download the preprocessed MTL-AQA dataset.
+- Click [here](https://drive.google.com/drive/folders/1A4Q3y91HoGzP3pG-vHwi-tGSX_ueVFFV?usp=sharing) to download the preprocessed BEST dataset.
 
 ### Checkpoints \& logs
 Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
@@ -57,6 +58,18 @@ python run_net.py --exp_name your_exp_name \
   --diff_loss \
   --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.7 \
   --optim_mode new_optim --lr_decay --num_epochs 200 --batch-size 16;
+```
+
+Use the following script to train our model on the BEST dataset.
+```
+python run_net.py --exp_name your_exp_name \
+  --gpu 0,1,2,3 --seed 0 --approach g_e_graph \
+  --feat_distill --lambda_distill 7 \
+  --replay --replay_method group_replay --memory_size 30 \
+  --diff_loss --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.3 --lambda_diff 10 \
+  --g_e_graph --fix_graph_mode no_fix --alpha 0.6\
+  --save_ckpt\
+  --optim_mode new_optim --lr_decay --num_epochs 120 --batch-size 64;
 ```
 
 ## Citation
