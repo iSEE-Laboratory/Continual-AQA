@@ -48,6 +48,17 @@ python run_net.py --exp_name your_exp_name \
   --optim_mode new_optim --lr_decay --num_epochs 200 --batch-size 16 --alpha 0.8 
 ```
 
+Use the following script to train our model on the MTL-AQA dataset.
+```
+python run_net.py --exp_name your_exp_name \
+  --gpu 0 --seed 0 --approach aug-diff \
+  --lambda_distill 7 --lambda_diff 0.1 \
+  --replay --replay_method group_replay --memory_size 30\
+  --diff_loss \
+  --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.7 \
+  --optim_mode new_optim --lr_decay --num_epochs 200 --batch-size 16;
+```
+
 ## Citation
 Please cite it if you find this work useful.
 ```
