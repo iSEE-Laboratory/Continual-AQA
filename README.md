@@ -11,6 +11,7 @@ Please feel free to contact us if you have any question.
 - [2024.05.02] The pre-processed **data**, **checkpoints** and **logs** of the experiments on AQA-7 dataset are available :)
 - [2024.05.24] The **code** and running **script** for experiments on the AQA-7 dataset are available :)
 - [2024.06.01] The pre-processed **data**, **code**, and running **script** for experiments on the MTL-AQA and the BEST datasets are available :)
+- [2025.03.12] The scripts for **testing with checkpoints** (on the AQA-7 dataset) are available.
 
 ## Pipeline
  ![](./img/pipeline.png)
@@ -37,7 +38,7 @@ Our experiments can be conducted on 4 Nvidia RTX 1080Ti GPUs.
 Click [here](https://drive.google.com/drive/folders/1QVT0U_HLNdHYZi4GEGZsIAVXz2idtKGa?usp=sharing) to download the checkpoints and logs of our experiments.
 
 ### Test with checkpoints
-Coming soon.
+We provide example scripts of testing with checkpoints in `Exp_AQA7/test_ckpt.py`. Please refer to `eval_net()` functions in each `run_net.py` for evaluating the models during training under different settings. 
 
 ### Train from scratch
 Use the following script to train our model on the AQA-7 dataset.
