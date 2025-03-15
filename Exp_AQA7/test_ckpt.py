@@ -150,11 +150,14 @@ def main(ckpt_path, t=5 ,task_list=[3, 5, 4, 1, 0, 2]):
     score_rgs = score_rgs.cuda()
     score_rgs = nn.DataParallel(score_rgs)
 
-
     rho_matrix=np.zeros((len(loaders_test),len(loaders_test)),dtype=np.float32)
     rl2_matrix=np.zeros((len(loaders_test),len(loaders_test)),dtype=np.float32)
     rho_matrix, rl2_matrix = test_net(t, jrg, score_rgs, loaders_test, rho_matrix, rl2_matrix, None, [3, 5, 4, 1, 0, 2])
-    print(rho_matrix)
+    print('rho_matrix: ', rho_matrix)
+
+    # we follow previous works to calculate the average performance across tasks with fisher_z score
+    avg_rho = utils.fisher_z(rho_mat[:, -1])
+    print('avg_rho: ', avg_rho)
 
 if __name__ == '__main__':
     os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
