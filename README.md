@@ -72,7 +72,7 @@ python run_net.py --exp_name your_exp_name \
   --feat_distill --lambda_distill 7 \
   --replay --replay_method group_replay --memory_size 30 \
   --diff_loss --aug_approach aug-diff --aug_mode fs_aug --num_helpers 7 --aug_scale 0.3 --lambda_diff 10 \
-  --g_e_graph --fix_graph_mode no_fix --alpha 0.6\
+  --save_graph --g_e_graph --fix_graph_mode no_fix --alpha 0.6\
   --save_ckpt\
   --optim_mode new_optim --lr_decay --num_epochs 120 --batch-size 64;
 ```
